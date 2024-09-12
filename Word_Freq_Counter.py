@@ -3,17 +3,17 @@ from collections import Counter
 import re 
 
 # Load text data
-text = "This is some words that I'm just using to test out this awesome noew script I'm writing."
+user_input = input("Please enter text for a word count list: ")
 
 # Preprocess the text
 # Convert to lowercase
-text = text.lower()
+user_input = user_input.lower()
 
 # Remove punctuation and special characters
-text = re.sub(r'[^\w\s]', '', text)
+user_input = re.sub(r'[^\w\s]', '', user_input)
 
 # Tokenize the text into words
-words = text.split()
+words = user_input.split()
 
 # Count the frequency of each word
 word_count = Counter(words)
