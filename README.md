@@ -13,12 +13,12 @@ This repository contains a collection of Natural Language Processing (NLP) proje
 3. **Combined Word Frequency and Stop Word Removal**
    - A script that combines both word frequency counting and stop word removal.
 
+4. **Text Normalization**
+   - Converts text to a standard format for consistency in analysis.
+
 ## Upcoming Projects
 
 The following projects are planned to be added to this repository:
-
-4. **Text Normalization**
-   - Converts text to a standard format for consistency in analysis.
 
 5. **Sentiment Analysis**
    - Determines the sentiment (positive, negative, neutral) of a given text.
